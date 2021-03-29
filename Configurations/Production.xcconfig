@@ -1,0 +1,12 @@
+//
+//  AppRelease.xcconfig
+//  BuildConfigDemo
+//
+//  Created by Nazmul Islam on 29/3/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+PRODUCT_NAME = $(inherited) AwsomeApp
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon-Production
+PRODUCT_BUNDLE_IDENTIFIER = dev.nazmul.BuildConfigDemo
