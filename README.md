@@ -14,6 +14,18 @@ This project demonstrates how to use Xcode Build Configuration (.xcconfig) files
 
 -   Note that you can apply `.xcconfig` to project level or target level. But applying to target is not recomended as `Cocoapod` applies its configuaration at target level.
 
+![alt text](https://github.com/nazmulcuet11/BuildConfigDemo/blob/main/screenshot_2.png?raw=true)
+
+-   Note that we added a custom active compilation flag (`ENABLE_LOGGER`) along with existing one (`DEBUG`). Combining this with configuration we can decide if we need to set up logger for this build or not. We can check for the flag just like this
+
+```Swift
+    #if ENABLE_LOGGER
+        print("Logger enabled")
+    #else
+        print("Logger disabled")
+    #endif
+```
+
 ### Useful links
 
 1. https://cocoacasts.com/tips-and-tricks-managing-build-configurations-in-xocde
