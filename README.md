@@ -1,7 +1,7 @@
 # BuildConfigDemo
 
-This project demonstrates how to use Xcode Build Configuration (.xcconfig) files to easily manage iOS project environments.
-<br>
+This project demonstrates how to use Xcode Build Configuration (.xcconfig) files with `scheme` to easily manage iOS project environments. This project contains two `scheme` (`Development` and `Production`). Building with different scheme builds different app with different bundle identifier, different app name and different app icon.
+<br><br>
 
 `.xcconfig` helps to easily define differetn configuration varialbles for different enviorment. Just create `.xcconfig` file using `New File -> Configuration Strings file` in Xcode.
 
