@@ -52,7 +52,6 @@
 				3BD842B8AB716A97FE0BDF6A /* Pods-BuildConfigDemo.development.xcconfig */,
 				2422D0C577458453CB5D198E /* Pods-BuildConfigDemo.production.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -289,7 +288,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG ENABLE_LOGGER";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Development;

@@ -19,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print(Configuration.baseURL)
         print(Configuration.apiKey)
 
+        #if ENABLE_LOGGER
+            print("Logger enabled")
+        #else
+            print("Logger disabled")
+        #endif
+
         return true
     }
 
